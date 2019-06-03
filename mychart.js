@@ -1,4 +1,3 @@
-
 function createGraphs(data) {
 	let oWords = {};
 	let oLetters = {
@@ -82,7 +81,7 @@ function createGraphs(data) {
 	};
 
         let lettersInWord = [];
-	
+
 
         aWordArray.forEach(function(element){
           lettersInWord.push(element.Word.length);
@@ -99,6 +98,8 @@ function createGraphs(data) {
 	  countsCounts.push(value);
 	}
 
+	let uniqueLettersInWord = lettersInWord.filter((v, i, a) => a.indexOf(v) === i);
+	let uniqueLettersInWordSorted = uniqueLettersInWord.sort(function(a, b){return a - b});
 
 	let barChartLabels = [];
 	let barChartData = [];
@@ -170,7 +171,7 @@ var myLinechart = new Chart(ctz, {
 
     // The data for our dataset
     data: {
-	labels: lettersInWord.filter((v, i, a) => a.indexOf(v) === i),
+	labels: uniqueLettersInWord,
       datasets: [{
         label: 'Word lenghts',
         backgroundColor: 'rgb(255, 99, 132)',
@@ -197,4 +198,3 @@ let openFile = function(event) {
 	};
 	reader.readAsText(input.files[0]);
 };
-

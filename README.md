@@ -1,11 +1,12 @@
-# LIHTSUSTATUD TEKSTIANALÜÜS
+# LIHTSUSTATUD TEKSTIANALï¿½ï¿½S
 
 Rasmus Aron
 
 # Kirjeldus
 
-Tegu on lihtsa rakenduse mis analüüsib teksti ja näitab selle kohta graafikut ja pirukat.
+Tegu on lihtsa rakenduse mis analï¿½ï¿½sib teksti ja nï¿½itab selle kohta graafikut ja pirukat.
 
-Hetkel näitab graafikut kogu tekstis olevate tähtedest ja enim kasutatud sõnu pirukana.
+Hetkel nï¿½itab graafikut kogu tekstis olevate tï¿½htedest ja enim kasutatud sï¿½nu pirukana.
 
-
+KuvatÃµmmis
+https://imgur.com/a/mkFmvrJ
